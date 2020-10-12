@@ -11,6 +11,7 @@ from .scrape import get_search
 def appOverview(request):
     api_urls = {
         'search': '/search/',
+        'result': '/result/'
     }
     return Response(api_urls)
 

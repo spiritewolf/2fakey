@@ -3,16 +3,7 @@ import { AppContext } from "../context/AppContext";
 
 export const Display = () => {
   const { results, loading } = useContext(AppContext);
-  const [show, setShow] = useState(false);
 
-  // useEffect(() => {
-  //   if (loading) {
-  //     console.log("loading...");
-  //     setShow(true);
-  //   } else {
-  //     setShow(false);
-  //   }
-  // }, [loading]);
   return (
     <div className="container">
       {loading ? (

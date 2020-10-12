@@ -5,7 +5,7 @@ export const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <p className="navbar-brand" href="#">
-        Your Mom
+        2Fakey
       </p>
       <button
         className="navbar-toggler"
