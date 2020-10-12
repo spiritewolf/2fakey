@@ -1,0 +1,29 @@
+{
+  "name": "idfk",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development --watch ./manager/front_end/src/index.js --output ./manager/front_end/static/front_end/main.js",
+    "build": "webpack --mode production ./manager/front_end/src/index.js --output ./manager/front_end/static/front_end/main.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.11.5",
+    "axios": "^0.20.0",
+    "css-loader": "^4.3.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "style-loader": "^2.0.0"
+  }
+}
